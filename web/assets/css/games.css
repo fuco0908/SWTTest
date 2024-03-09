@@ -1,0 +1,28 @@
+.game_member{
+    background: transparent;
+}
+.item h4{
+    display: inline-block;
+}
+#showall{
+    display: inline-block;
+}
+.target_box{
+    background: transparent;
+}
+.item{
+    cursor: pointer;
+}
+.target{
+    color: white;
+}
+.right-info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Chia thành 2 cột bằng nhau */
+    gap: 10px; /* Khoảng cách giữa các dòng */
+}
+
+.right-info-grid p {
+    display: flex;
+    align-items: center;
+}
